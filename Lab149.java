@@ -1,23 +1,20 @@
-package july.ex_13072024;
+package August
 
-public class Lab033 {
+public class Lab017 {
     public static void main(String[] args) {
-        double a = 34;
-        double b = 10;
-        double result = a%b; // Modulus - operator - Reminder
-        System.out.println(result);
+        // age?
 
-//        10 |  34 | 3 - Q
-//           |  30 |
-//            ______
-//                4 - Remainder
+        //max age of theperson in world ? -
+        byte age= 122; // age > 127 // less memory -> smart container - good practice
+        int age1 = 100; // wasting memory - 214768348488
 
-        System.out.println(89%10);
+        // program store pi with only 2 decimal 3.14, 3.142323237866999
+        float pi = 3.14f;
+        double pi_d =  3.14876545678;
 
-
-
-
-
-
+//
+//        byte - data type
+//            Byte -> memory allocation
+//            // curse electronice
     }
 }
