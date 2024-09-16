@@ -1,20 +1,29 @@
 package july.ex_20072024;
 
-public class Lab102 {
-    public static void main(String[] args) {
+import java.util.Scanner;
 
-        int a = 11;
-        switch (-1){
-            default:
-                System.out.println("Default");
-                break;
-            case -1:
-                System.out.println("10");
-                break;
-            case 9:
-                System.out.println("10");
-                break;
+public class Lab103 {
+    public static void main(String[] args) {
+        // Program to Check
+        // if a Number is Positive
+        // , Negative,
+        // or Zero.
+
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter yur number!");
+        int num = sc.nextInt();
+
+
+        if(num> 0 ){
+            System.out.println("Positive Number");
+        }else if( num < 0){
+            System.out.println("Negative Number");
+        }else{
+            System.out.println("Zero");
         }
+
+
 
 
     }
