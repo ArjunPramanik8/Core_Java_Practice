@@ -1,17 +1,21 @@
 package july.ex_20072024;
 
-public class Lab100 {
+public class Lab102 {
     public static void main(String[] args) {
-        // JDK > 13
-        char code = 'B';
-        int val = switch (code){
-            case 'A':
-                yield 65;
-            case 'B':
-                yield 66;//// return
+
+        int a = 11;
+        switch (-1){
             default:
-                throw new IllegalStateException("Unexpected value: " + code);
-        };
-        System.out.println(val);
+                System.out.println("Default");
+                break;
+            case -1:
+                System.out.println("10");
+                break;
+            case 9:
+                System.out.println("10");
+                break;
+        }
+
+
     }
 }
