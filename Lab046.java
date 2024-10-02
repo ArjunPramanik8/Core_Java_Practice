@@ -9,6 +9,5 @@ public class Lab046 {
         System.out.println(!!!!(30>90));
         //  System.out.println((30>90)!);
 
-
     }
 }
