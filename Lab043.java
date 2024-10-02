@@ -10,6 +10,5 @@ public class Lab043 {
 //        boolean result = age_pramod < age_mamitha;
         boolean result2 = age_pramod >= age_mamitha; // OR gate
         System.out.println(result2);
-
     }
 }
