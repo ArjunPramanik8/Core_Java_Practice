@@ -11,6 +11,5 @@ public class Lab041 {
         a/=10; // a = a/10
         a*=10; // a = a*10
 
-
     }
 }
