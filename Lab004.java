@@ -5,12 +5,12 @@ public class Lab004 {
     {
         System.out.println("Mathematical Calculation");
 
-        // Package -> Class -> Main Method -> statements(instructions)
-        System.out.println(2+2);
-        System.out.println(2*2);
-        System.out.println(2/2);
-        System.out.println(2-2);
-        System.out.println(3/2); // Integer
+        // Swap two numbers
+        int a = 5, b = 10;
+        int temp = a;
+        a = b;
+        b = temp;
+        System.out.println("a: " + a + ", b: " + b);
 
     }
 }
