@@ -1,7 +1,10 @@
-package July24;
-
-public class Lab001 {
+public class OddEven {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        int num = 6;
+        if(num % 2 == 0) {
+            System.out.println(num + " is Even");
+        } else {
+            System.out.println(num + " is Odd");
+        }
     }
 }
