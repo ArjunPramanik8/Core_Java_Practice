@@ -1,15 +1,7 @@
-package July
-
-public class Lab014 {
-    //public static void main(String[] args) {
-    public static void main(String args[]) {
-        System.out.println("Yes");
-    }
-
-    public static void main(String args) {
-
-    }
-    public static void main(int[] args) {
-
+public class LargestOfThree {
+    public static void main(String[] args) {
+        int a = 5, b = 10, c = 7;
+        int largest = (a > b) ? (a > c ? a : c) : (b > c ? b : c);
+        System.out.println("Largest: " + largest);
     }
 }
