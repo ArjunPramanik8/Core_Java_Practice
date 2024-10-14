@@ -15,6 +15,7 @@ public class Lab020 {
 
         // Can I change the data type of variable between program
         // No
+        
         int age = 123;
 
 
