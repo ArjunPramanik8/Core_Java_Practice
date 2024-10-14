@@ -5,4 +5,5 @@ public class Lab021 {
         int A123 = 987;
         System.out.println(A123);
     }
+    
 }
