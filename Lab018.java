@@ -2,6 +2,7 @@ package July
 
 public class Lab018 {
     public static void main(String[] args) {
+
         //byte b = 128; //-127 to 127
 
         char c = 'A';
