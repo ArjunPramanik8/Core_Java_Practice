@@ -12,9 +12,5 @@ public class Lab017 {
         float pi = 3.14f;
         double pi_d =  3.14876545678;
 
-//
-//        byte - data type
-//            Byte -> memory allocation
-//            // curse electronice
     }
 }
