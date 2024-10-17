@@ -1,4 +1,5 @@
 import java.util.Arrays;
+
 public class SecondLargest {
     public static void main(String[] args) {
         int[] arr = {10, 20, 5, 30, 15};
