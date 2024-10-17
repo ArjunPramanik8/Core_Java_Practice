@@ -1,12 +1,7 @@
-public class SumOfDigits
- {
-    public static void main(String[] args)
-       {
-        int num = 1234, sum = 0;
-        while (num > 0) {
-            sum += num % 10;
-            num /= 10;
-        }
-        System.out.println("Sum: " + sum);
+public class Palindrome {
+    public static void main(String[] args) {
+        String str = "madam";
+        String reversed = new StringBuilder(str).reverse().toString();
+        System.out.println(str.equals(reversed) ? "Palindrome" : "Not Palindrome");
     }
 }
