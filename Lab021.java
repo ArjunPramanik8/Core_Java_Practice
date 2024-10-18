@@ -1,5 +1,7 @@
-public class CountVowelsConsonants {
-    public static void main(String[] args) {
+public class CountVowelsConsonants 
+{
+    public static void main(String[] args) 
+        {
         String str = "hello world";
         int vowels = 0, consonants = 0;
         for (char ch : str.toCharArray()) {
