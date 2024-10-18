@@ -1,9 +1,14 @@
-package July
-
-public class Lab021 {
+public class CountVowelsConsonants {
     public static void main(String[] args) {
-        int A123 = 987;
-        System.out.println(A123);
+        String str = "hello world";
+        int vowels = 0, consonants = 0;
+        for (char ch : str.toCharArray()) {
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+                vowels++;
+            } else if (ch >= 'a' && ch <= 'z') {
+                consonants++;
+            }
+        }
+        System.out.println("Vowels: " + vowels + ", Consonants: " + consonants);
     }
-    
 }
