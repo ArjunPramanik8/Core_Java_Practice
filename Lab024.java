@@ -1,9 +1,9 @@
-package July
+import java.util.Random;
 
-public class Lab024 {
+public class RandomNumber {
     public static void main(String[] args) {
-        int n = 9;
-        System.out.printf("%d",n);
-
+        Random random = new Random();
+        int randomNumber = random.nextInt(100); // Generates a number between 0 and 99
+        System.out.println("Random number: " + randomNumber);
     }
 }
