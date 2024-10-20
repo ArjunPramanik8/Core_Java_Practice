@@ -1,4 +1,5 @@
-public class CountCharacter {
+public class CountCharacter 
+{
     public static void main(String[] args) {
         String str = "hello world";
         char target = 'o';
