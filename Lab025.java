@@ -1,6 +1,7 @@
 public class CountCharacter 
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+        {
         String str = "hello world";
         char target = 'o';
         int count = 0;
