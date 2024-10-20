@@ -1,6 +1,7 @@
 import java.util.Random;
 
-public class RandomNumber {
+public class RandomNumber 
+{
     public static void main(String[] args) {
         Random random = new Random();
         int randomNumber = random.nextInt(100); // Generates a number between 0 and 99
