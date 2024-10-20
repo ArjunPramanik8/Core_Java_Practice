@@ -1,10 +1,13 @@
-package July
-
-public class Lab022 {
+public class GCD {
     public static void main(String[] args) {
-        
-        System.out.println("9x1=9");
-        System.out.println("9x2=18");
-        System.out.println("9x10=90");
+        int a = 36, b = 60;
+        while (a != b) {
+            if (a > b) {
+                a = a - b;
+            } else {
+                b = b - a;
+            }
+        }
+        System.out.println("GCD: " + a);
     }
 }
