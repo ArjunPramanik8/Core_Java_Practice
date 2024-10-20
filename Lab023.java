@@ -1,15 +1,15 @@
-package July
-
-public class Lab023 {
+public class ArmstrongNumber {
     public static void main(String[] args) {
-        // Formatting
-        int age = 98;
-        System.out.println("You age is -> " + age);
-        // %d ->  any integer - byte, short, int or long
-        // %s -> String
-        // %c -> char
-        // %f -> float
-        System.out.printf("You age is -> %d",age);
-        
-    }
-}
+        int num = 153, originalNum, remainder, result = 0;
+        originalNum = num;
+        int n = String.valueOf(num).length();
+
+        while (originalNum != 0) {
+            remainder = originalNum % 10;
+            result += Math.pow(remainder, n);
+            originalNum /= 10;
+        }
+
+        if (result == num) {
+            System.out.println(num + " is an Armstrong number.");
+        }
