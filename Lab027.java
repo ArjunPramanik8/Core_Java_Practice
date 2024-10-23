@@ -1,4 +1,5 @@
-public class TransposeMatrix {
+public class TransposeMatrix
+     {
     public static void main(String[] args)
          {
         int[][] matrix = {
