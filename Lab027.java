@@ -1,23 +1,24 @@
-package July
-
-public class Lab027 {
+public class TransposeMatrix {
     public static void main(String[] args) {
-        int age = 10; // Decimal Number System
-        int b = 0b1010; // Binday - Automation x
-        int octal = 0101; // If your Automation you may be working with these numbers
-        int hex = 0Xface;
+        int[][] matrix = {
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}
+        };
+        int[][] transpose = new int[3][3];
 
-        // https://www.rapidtables.com/convert/number/decimal-to-hex.html?x=10
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[0].length; j++) {
+                transpose[j][i] = matrix[i][j];
+            }
+        }
 
-        // ASCII Table
-        // 0-9 48-57
-        // A-Z 65-90
-        // a-z 97-122
-//      // 0-9 48-57
-
-
-
-
-
+        System.out.println("Transpose of the matrix:");
+        for (int[] row : transpose) {
+            for (int elem : row) {
+                System.out.print(elem + " ");
+            }
+            System.out.println();
+        }
     }
 }
