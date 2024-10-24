@@ -1,4 +1,5 @@
-public class PalindromeNumber {
+public class PalindromeNumber 
+    {
     public static void main(String[] args) {
         int num = 121, reversedNum = 0, remainder, originalNum;
 
