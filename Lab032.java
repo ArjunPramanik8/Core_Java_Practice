@@ -11,7 +11,8 @@ public class BinarySearch
    
         if (result >= 0) {
             System.out.println("Element found at index: " + result);
-        } else {
+        }
+          else {
             System.out.println("Element not found.");
         }
     }
