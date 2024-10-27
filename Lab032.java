@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
-public class BinarySearch {
+public class BinarySearch
+ {
     public static void main(String[] args) {
         int[] arr = {10, 20, 30, 40, 50};
         int key = 30;
