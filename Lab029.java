@@ -1,24 +1,16 @@
-package July
+import java.util.Arrays;
 
-public class Lab029 {
+public class MergeArrays {
     public static void main(String[] args) {
-        // Calc
-        double a = 10;
-        double b = 34;
-        double sum  = a+b;
-        double sub  = a-b;
-        double mul  = a*b;
-        double div  = a/b;
-//        double div  = a/b;
-        System.out.printf("Sum is %f\n",sum);
+        int[] arr1 = {1, 3, 5, 7};
+        int[] arr2 = {2, 4, 6, 8};
+        int[] merged = new int[arr1.length + arr2.length];
 
-        System.out.printf("Sub is %f\n",sub);
+        System.arraycopy(arr1, 0, merged, 0, arr1.length);
+        System.arraycopy(arr2, 0, merged, arr1.length, arr2.length);
 
-        System.out.printf("Mul is %f\n",mul);
-
-        System.out.printf("Div is %f\n",div);
-
-
-
+        Arrays.sort(merged);
+        
+        System.out.println("Merged array: " + Arrays.toString(merged));
     }
 }
