@@ -1,23 +1,21 @@
-package July
+import java.util.Arrays;
 
-public class Lab033 {
+public class InsertElement {
     public static void main(String[] args) {
-        double a = 34;
-        double b = 10;
-        double result = a%b; // Modulus - operator - Reminder
-        System.out.println(result);
+        int[] arr = {1, 2, 3, 4, 5};
+        int element = 99;
+        int position = 2;
 
-//        10 |  34 | 3 - Q
-//           |  30 |
-//            ______
-//                4 - Remainder
+        int[] newArr = new int[arr.length + 1];
 
-        System.out.println(89%10);
+        for (int i = 0, j = 0; i < newArr.length; i++) {
+            if (i == position) {
+                newArr[i] = element;
+            } else {
+                newArr[i] = arr[j++];
+            }
+        }
 
-
-
-
-
-
+        System.out.println("Array after insertion: " + Arrays.toString(newArr));
     }
 }
