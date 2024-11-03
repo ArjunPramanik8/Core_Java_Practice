@@ -18,6 +18,7 @@ public class InsertElement {
             }
         }
 
+
         System.out.println("Array after insertion: " + Arrays.toString(newArr));
     }
 }
