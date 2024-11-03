@@ -9,7 +9,8 @@ public class InsertElement {
 
         int[] newArr = new int[arr.length + 1];
 
-        for (int i = 0, j = 0; i < newArr.length; i++) {
+        for (int i = 0, j = 0; i < newArr.length; i++) 
+            {
             if (i == position) {
                 newArr[i] = element;
             } else {
