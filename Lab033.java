@@ -1,7 +1,8 @@
 import java.util.Arrays;
 
 public class InsertElement {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+{
         int[] arr = {1, 2, 3, 4, 5};
         int element = 99;
         int position = 2;
