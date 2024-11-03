@@ -1,5 +1,6 @@
 public class SelectionSort {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+     {
         int[] arr = {29, 10, 14, 37, 13};
         int n = arr.length;
 
