@@ -9,6 +9,7 @@ public class MatrixMultiplication {
             {2, 0},
             {1, 2}
         };
+
         int[][] product = new int[2][2];
 
         for (int i = 0; i < 2; i++) {
