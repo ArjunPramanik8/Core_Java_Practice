@@ -5,6 +5,7 @@ public class MatrixMultiplication {
             {1, 2},
             {3, 4}
         };
+
         int[][] matrixB = {
             {2, 0},
             {1, 2}
