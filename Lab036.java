@@ -6,5 +6,6 @@ public class OnlyDigits
         boolean isOnlyDigits = str.matches("[0-9]+");
 
         System.out.println("Contains only digits: " + isOnlyDigits);
+
     }
 }
