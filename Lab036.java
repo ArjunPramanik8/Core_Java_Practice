@@ -1,21 +1,8 @@
-package July
-
-public class Lab036 {
+public class OnlyDigits {
     public static void main(String[] args) {
-        //
-//        int a = "pramod";
+        String str = "12345";
+        boolean isOnlyDigits = str.matches("[0-9]+");
 
-        boolean b = true;
-        boolean b1 = false;
-//        boolean b12 = "yes";
-//        boolean b2 = 'A'; Not possible
-
-        float f = 129.8763e2F;
-
-        String str2=null;
-        System.out.println(str2);
-
-
-
+        System.out.println("Contains only digits: " + isOnlyDigits);
     }
 }
