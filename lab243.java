@@ -1,14 +1,15 @@
-package july.ex_20072024;
+import java.util.HashMap;
 
-public class Lab105 {
+public class WordFrequency {
     public static void main(String[] args) {
+        String str = "this is a test this is only a test";
+        String[] words = str.split(" ");
+        HashMap<String, Integer> wordCount = new HashMap<>();
 
-        char ch = 'a';
-        if ( ch == 'a' || ch == 'e' || ch =='o' || ch == 'i' || ch == 'u'){
-            System.out.println("Vowel");
-        }else{
-            System.out.println("Consonant");
+        for (String word : words) {
+            wordCount.put(word, wordCount.getOrDefault(word, 0) + 1);
         }
 
+        System.out.println("Word frequencies: " + wordCount);
     }
 }
