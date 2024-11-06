@@ -1,6 +1,7 @@
 import java.util.HashMap;
 
-public class WordFrequency {
+public class WordFrequency 
+        {
     public static void main(String[] args) {
         String str = "this is a test this is only a test";
         String[] words = str.split(" ");
