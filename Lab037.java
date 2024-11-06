@@ -1,6 +1,7 @@
 public class SquareRoot 
     {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+     {
         double num = 49;
         double squareRoot = Math.sqrt(num);
 
