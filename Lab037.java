@@ -1,23 +1,8 @@
-package July
-
-public class Lab037 {
+public class SquareRoot {
     public static void main(String[] args) {
-        // ✅ Operators
-        int age = 65; // 10000001 -> switch of / on
-        // = Assignment Operator - Assign the value literal to the ref of data type
+        double num = 49;
+        double squareRoot = Math.sqrt(num);
 
-        // Arithmetic Operator +,-,/,*,
-        // %
-        int a = 10;
-        int b = 23;
-        System.out.println(a+b);
-        System.out.println(a-b);
-        System.out.println(a*b);
-        System.out.println(a/b);
-
-        // %
-        System.out.println(a%b); // Remainders
-
-
+        System.out.println("Square root of " + num + " is " + squareRoot);
     }
 }
