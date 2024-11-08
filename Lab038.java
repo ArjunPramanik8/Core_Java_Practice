@@ -1,13 +1,19 @@
-package July
-
-public class Lab038 {
+public class MinMaxArray {
     public static void main(String[] args) {
-        // Unary Operator
-        int age = +65;
-        int lambo = -1;
-        System.out.println(age);
-        System.out.println(lambo+2);
+        int[] arr = {10, 20, 5, 40, 15};
+        int min = arr[0];
+        int max = arr[0];
 
+        for (int num : arr) {
+            if (num < min) {
+                min = num;
+            }
+            if (num > max) {
+                max = num;
+            }
+        }
 
+        System.out.println("Minimum: " + min);
+        System.out.println("Maximum: " + max);
     }
 }
