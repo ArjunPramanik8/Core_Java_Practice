@@ -1,30 +1,13 @@
-package july.ex_20072024;
-
-import java.util.Scanner;
-
-public class Lab103 {
+public class GCD {
     public static void main(String[] args) {
-        // Program to Check
-        // if a Number is Positive
-        // , Negative,
-        // or Zero.
+        int a = 54, b = 24;
 
-
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter yur number!");
-        int num = sc.nextInt();
-
-
-        if(num> 0 ){
-            System.out.println("Positive Number");
-        }else if( num < 0){
-            System.out.println("Negative Number");
-        }else{
-            System.out.println("Zero");
+        while (b != 0) {
+            int temp = b;
+            b = a % b;
+            a = temp;
         }
 
-
-
-
+        System.out.println("GCD: " + a);
     }
 }
