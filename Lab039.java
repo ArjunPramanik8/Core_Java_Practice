@@ -1,13 +1,12 @@
-package July
-
-public class Lab039 {
+public class PerfectSquare {
     public static void main(String[] args) {
-        String firstname = "PRAMOD";
-        String lastname = "DUTTA";
-        System.out.println(firstname + lastname);
+        int num = 16;
+        double sqrt = Math.sqrt(num);
 
-        byte a = 10;
-        byte b = 18;
-        System.out.println(a+b);
+        if (sqrt == Math.floor(sqrt)) {
+            System.out.println(num + " is a perfect square.");
+        } else {
+            System.out.println(num + " is not a perfect square.");
+        }
     }
 }
