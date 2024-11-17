@@ -9,6 +9,7 @@ public class AverageArray
             sum += num;
         }
 
+        
         double average = (double) sum / arr.length;
         System.out.println("Average: " + average);
     }
