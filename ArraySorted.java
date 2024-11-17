@@ -10,6 +10,7 @@ public class ArraySorted
                 isSorted = false;
                 break;
             }
+            
         }
 
         System.out.println("Array is sorted: " + isSorted);
