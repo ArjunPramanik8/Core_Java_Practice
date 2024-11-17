@@ -13,7 +13,8 @@ public class BinarySearch
         {
             System.out.println("Element found at index: " + result);
         }
-          else {
+          else 
+        {
             System.out.println("Element not found.");
         }
    
