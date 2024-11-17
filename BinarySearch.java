@@ -9,7 +9,8 @@ public class BinarySearch
         int result = Arrays.binarySearch(arr, key);
 
    
-        if (result >= 0) {
+        if (result >= 0) 
+        {
             System.out.println("Element found at index: " + result);
         }
           else {
