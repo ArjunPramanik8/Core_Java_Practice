@@ -1,6 +1,7 @@
 public class ArmstrongNumber 
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+{
         int num = 153, originalNum, remainder, result = 0;
         originalNum = num;
         int n = String.valueOf(num).length();
