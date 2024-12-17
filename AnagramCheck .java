@@ -16,7 +16,8 @@ public class AnagramCheck
             if (Arrays.equals(arr1, arr2)) {
                 System.out.println("The strings are anagrams.");
             }
-            else {
+            else
+            {
                 System.out.println("The strings are not anagrams.");
             }
         } else {
