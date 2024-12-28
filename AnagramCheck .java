@@ -20,7 +20,8 @@ public class AnagramCheck
             {
                 System.out.println("The strings are not anagrams.");
             }
-        } else {
+        } 
+        else {
             System.out.println("The strings are not anagrams.");
         }
     }
