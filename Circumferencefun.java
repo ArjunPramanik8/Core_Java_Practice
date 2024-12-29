@@ -12,7 +12,6 @@ public class Circumferencefun {
     }
 
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter the radius");
         Double radius= sc.nextDouble();
