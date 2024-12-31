@@ -12,7 +12,6 @@ public class AnagramCheck
             char[] arr2 = str2.toCharArray();
             Arrays.sort(arr1);
             Arrays.sort(arr2);
-
             
             if (Arrays.equals(arr1, arr2)) {
                 System.out.println("The strings are anagrams.");
