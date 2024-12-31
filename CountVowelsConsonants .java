@@ -12,7 +12,7 @@ public class CountVowelsConsonants
                 consonants++;
             }
         }
-            
+        
         System.out.println("Vowels: " + vowels + ", Consonants: " + consonants);
     }
 }
