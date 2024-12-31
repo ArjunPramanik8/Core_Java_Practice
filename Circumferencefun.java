@@ -10,7 +10,6 @@ public class Circumferencefun {
         Double Circumference= 2*3.14*r;
         System.out.println("Circumference of the circle is " + Circumference);
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter the radius");
