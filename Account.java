@@ -2,7 +2,7 @@ package OOPs_conecpt.Encapsulation.Bank;
 
 public class Account {
     public String name;
-    protected String email;
+        protected String email;
         private String password;
 
     public String getpassword() {
