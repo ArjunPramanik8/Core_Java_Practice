@@ -6,7 +6,7 @@ public class Account {
     private String password;
 
     public String getpassword() {
-     return this.password;
+         return this.password;
     }
     
     public void setpassword(String pass2) {
