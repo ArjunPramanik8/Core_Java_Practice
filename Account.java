@@ -10,7 +10,7 @@ public class Account {
     }
     
     public void setpassword(String pass2) {
-    this.password = pass2;
+        this.password = pass2;
     }
     
     
