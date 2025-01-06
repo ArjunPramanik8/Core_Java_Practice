@@ -12,7 +12,6 @@ public class ArmstrongNumber
             originalNum /= 10;
         }
 
-
         if (result == num) {
             System.out.println(num + " is an Armstrong number.");
         }
