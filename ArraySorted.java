@@ -12,7 +12,6 @@ public class ArraySorted
                 break;
             }
         }
-
         System.out.println("Array is sorted: " + isSorted);
     }
 }
