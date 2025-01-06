@@ -6,6 +6,7 @@ public class ArmstrongNumber
         originalNum = num;
         int n = String.valueOf(num).length();
 
+        
         while (originalNum != 0) {
             remainder = originalNum % 10;
             result += Math.pow(remainder, n);
