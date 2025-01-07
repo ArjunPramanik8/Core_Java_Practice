@@ -7,7 +7,6 @@ public class FactorialMethod {
     public static void printFactorial(int n)
     {
         int fact=1;
-
         for (int i = 1; i <=n; i++) {
 
             fact=fact*i;
