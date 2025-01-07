@@ -11,7 +11,6 @@ public class LCM
                 System.out.println("LCM of " + a + " and " + b + " is " + lcm);
                 break;
             }
-
             lcm++;
         }
     }
