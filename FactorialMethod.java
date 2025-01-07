@@ -11,7 +11,6 @@ public class FactorialMethod {
             fact=fact*i;
         }
         System.out.println("Factorial "+fact);
-
     }
 
     public static void main(String[] args) {
