@@ -1,6 +1,7 @@
 package August
 
-public class Lab073 {
+public class Lab073 
+{
     
     public static void main(String[] args) {
         String str1="Hello";
