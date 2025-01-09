@@ -7,6 +7,6 @@ public class Lab073
         String str2=" Guys";
         String str3="Hello Guys";
         String str4= str1.concat(str2); // Hello Guys
-        // SCAP - 
+        // SCAP -
     }
 }
