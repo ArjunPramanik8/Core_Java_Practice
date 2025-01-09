@@ -2,7 +2,7 @@ package August
 
 public class Lab073 
 {
-    
+
     public static void main(String[] args) {
         String str1="Hello";
         String str2=" Guys";
