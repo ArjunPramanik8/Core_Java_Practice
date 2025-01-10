@@ -7,7 +7,6 @@ public class Lab053 {
         // Byte , bits - memory -> 1 Byte, 8 bits are used.
         long l = 10l;
         // memory - 8 Byte, 64 bits
-
         String s = "name"; // 8 Byte, 64 bits
 
     }
