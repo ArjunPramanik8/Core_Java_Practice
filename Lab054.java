@@ -8,7 +8,6 @@ public class Lab054 {
         int c = a+b;
         System.out.println(c);
 
-        
         char a1 = 'A';
         char b1 = 'B';
         int c1 = a1+b1; // AB ->char
