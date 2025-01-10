@@ -6,7 +6,6 @@ public class Lab056 {
         // Widening - Implicit, Explicit - lossless
         // Narrowing - Implicit, Explicit(with data type), loss
 
-
         // Widening
         byte b=10;
         int a=b; // VALID – Implicit Casting - JVM
