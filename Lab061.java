@@ -9,7 +9,6 @@ public class Lab061 {
 //
 //        // Exp = 10 , a = 11?
 
-
         int a = 10;
         int result = ++a;
         System.out.println(a);
