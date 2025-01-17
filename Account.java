@@ -6,7 +6,6 @@ public class Account {
         protected String email;
         private String password;
 
-
     public String getpassword() {
          return this.password;
     }
