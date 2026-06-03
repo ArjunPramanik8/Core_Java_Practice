@@ -26,7 +26,7 @@ public class AnagramCheck
         {
             System.out.println("The strings are not anagrams.");
         }
-        
+       
     }
 
 }
