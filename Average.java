@@ -2,7 +2,6 @@ package Practice;
 import java.util.Scanner;
 //Enter 3 numbers from the user & make a function to print their average.
 public class Average {
-
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         System.out.println("Please enter the first number");
