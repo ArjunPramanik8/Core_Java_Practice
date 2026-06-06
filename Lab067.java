@@ -8,7 +8,6 @@ public class Lab067 {
         String name2 = new String("Pramod");
         // How many ways we can a String - 2
        
-
         System.out.println(name.toLowerCase());
         System.out.println(name.length());
         System.out.println(name.toUpperCase());
