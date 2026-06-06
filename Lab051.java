@@ -12,10 +12,7 @@ public class Lab051 {
         // > , < , >= <=, !, != , == (compare two value)
 
 
-        // Logical Operators
-        //  OR or and , || , && , !
-
-
+     
 
         // Optional to learn - digital Electronics
         // Bitwise - Not important for Automation
