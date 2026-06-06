@@ -6,6 +6,5 @@ public class Lab055 {
         char c = 'A'; //65
         int ss = s+c;
         System.out.println(ss);
-
     }
 }
