@@ -8,8 +8,6 @@ public class Lab064 {
         // A -> ++a , Exp = 11    |  a = 11
         // + -> nothing
         // B -> ++a  Exp =  12 | a = 12
-        // Exp = A+B = 23 , a = 12
-
-        // a--, --a
+        
     }
 }
