@@ -7,7 +7,6 @@ public class Lab067 {
         // class - ?
         String name2 = new String("Pramod");
         // How many ways we can a String - 2
-        // = , new operator
        
 
         System.out.println(name.toLowerCase());
