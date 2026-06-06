@@ -15,10 +15,6 @@ public class Lab051 {
         // Logical Operators
         //  OR or and , || , && , !
 
-        // They will come in the future.  -OOPs concepts
-
-        // new Operator
-        // instanceOf Operator
 
 
         // Optional to learn - digital Electronics
