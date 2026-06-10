@@ -11,7 +11,9 @@ public class CountCharacter
                 count++;
             }
         }
-        
+
+
+            
         System.out.println("Occurrences of '" + target + "': " + count);
     }
 }
