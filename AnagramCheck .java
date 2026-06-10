@@ -6,7 +6,6 @@ public class AnagramCheck
     {
         String str1 = "listen";
         String str2 = "silent";
-
         if (str1.length() == str2.length()) {
             char[] arr1 = str1.toCharArray();
             char[] arr2 = str2.toCharArray();
