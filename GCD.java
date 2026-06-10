@@ -9,7 +9,6 @@ public class GCD
             b = a % b;
             a = temp;
         }
-
         System.out.println("GCD: " + a);
     }
 }
