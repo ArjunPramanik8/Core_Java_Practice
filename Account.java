@@ -12,7 +12,6 @@ public class Account {
     public void setpassword(String pass2) {
         this.password = pass2;
     }
-
     
     public static void main(String[] args) {
         Account a2= new Account();
