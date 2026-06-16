@@ -13,6 +13,6 @@ public class Average {
         int average= (First+Second+Third)/3;
 
         System.out.println("Average of three number is "+ average);
-    
+
     }
 }
