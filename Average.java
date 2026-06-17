@@ -11,7 +11,7 @@ public class Average {
         System.out.println("Please enter the Third number");
         int Third= sc.nextInt();
         int average= (First+Second+Third)/3;
-
+        
         System.out.println("Average of three number is "+ average);
 
     }
