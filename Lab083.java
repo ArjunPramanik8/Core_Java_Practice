@@ -6,7 +6,8 @@ public class Lab083 {
         // a = 4 -> TRUE OR FALSE
         if( a == 4){
             System.out.println("Haha");
-        }else{
+        }
+        else{
             System.out.println("LOL");
         }
     }
