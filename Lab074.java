@@ -14,6 +14,6 @@ public class Lab074 {
         System.out.println(name1 == name2); // Check for the Ref
         System.out.println(name1.equals(name2)); // Check for the Content
 
-        
+    
     }
 }
