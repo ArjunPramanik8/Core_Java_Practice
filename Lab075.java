@@ -11,6 +11,5 @@ public class Lab075 {
         System.out.println(s2 == s3); // Check for the ref
         System.out.println(s2.equals(s3)); // Check for the Content
 
-
     }
 }
