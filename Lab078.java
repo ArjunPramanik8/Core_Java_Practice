@@ -14,5 +14,6 @@ public class Lab078 {
         System.out.println(password.substring(0,3));
         System.out.println(password.indexOf('r'));
         System.out.println(password.length());
+        
     }
 }
