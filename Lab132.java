@@ -8,6 +8,7 @@ public class Lab132 {
 //            i++;
 //        }
 
+        
         do{
             System.out.println(i);
             i++;
