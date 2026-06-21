@@ -17,7 +17,6 @@ public class Lab136 {
         // 2.Without Parameters but With Return Type
         // 3.With Parameters and Without Return Type
         // 4. With Parameters and With Return Type
-
         function_type1();
 
         System.out.println( " --------------- ");
