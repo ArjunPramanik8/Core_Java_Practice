@@ -9,7 +9,6 @@ public class Lab130 {
         //  n = 5 ->  Fact = 5*4*3*2*1 = 120
         // n = 1 ->  Fact = 1*1 -> 1
         // n = 3 -> Fact = 3*2*1 -> 6
-
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a num,will print Factorial");
         int n = sc.nextInt();
