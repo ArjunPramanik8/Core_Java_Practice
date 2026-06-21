@@ -10,7 +10,5 @@ public class Lab134 {
         System.out.println(result);
         System.out.println(result2);
 
-
-
     }
 }
