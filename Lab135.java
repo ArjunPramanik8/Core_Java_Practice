@@ -11,7 +11,6 @@ public class Lab135 {
         // 1. Define
         // 2. Call the function
 
-
         // Call the function
         for (int i = 0; i < 5; i++) {
             greet();
