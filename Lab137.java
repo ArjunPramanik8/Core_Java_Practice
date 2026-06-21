@@ -23,7 +23,5 @@ public class Lab130 {
         sc.close();
 
 
-
-
     }
 }
