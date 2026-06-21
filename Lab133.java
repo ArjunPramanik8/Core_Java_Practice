@@ -12,7 +12,6 @@ public class Lab133 {
     // For numbers which are multiples of both 3 and 5,
     // print "FizzBuzz".
 
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Max number");
